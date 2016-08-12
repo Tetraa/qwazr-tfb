@@ -12,8 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-public class JsonController extends HttpServlet {
+public class DatabaseUpdate extends HttpServlet {
 	public static final class HelloWorldData {
 		public final String message = "Hello, world!";
 	}
